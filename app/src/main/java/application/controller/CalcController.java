@@ -37,6 +37,7 @@ public class CalcController {
            
               
         }
+        ui.addAttribute("resultado", resultado);
         return "calc/form";
     }
 }
